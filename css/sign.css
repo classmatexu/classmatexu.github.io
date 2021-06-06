@@ -1,0 +1,110 @@
+body{
+    background: url(../img/signimg.jpg) no-repeat;
+    background-size: cover;
+}
+/* 设置登录/注册界面 */
+.signin-outter,
+.signup-outter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border-radius: 1.5rem;
+    background-color:  #00000090;
+}
+/* 主容器 */
+.signin-main,
+.signup-main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+    color: #fff;
+}
+.signup,
+.signin{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.signup h1,
+.signin h1{
+    font-size: 2.5rem;
+}
+/* 文本框、密码框、按钮容器 */
+.signup .signup-text,
+.signup .signup-pass,
+.signup .signup-but,
+.signin .signin-text,
+.signin .signin-pass,
+.signin .signin-but{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.signup .signup-text,
+.signin .signin-text{
+    top: 7rem;
+}
+.signup .signup-pass,
+.signin .signin-pass{
+    top: 13rem;
+}
+.signup .signup-but,
+.signin .signin-but{
+    top: 22.5rem;
+}
+/* 文本框、密码框、按钮 */
+.signup .signup-text input,
+.signup .signup-pass input,
+.signin .signin-text input,
+.signin .signin-pass input{
+    height: 2.5rem;
+    width: 13rem;
+    border: 0;
+	border-bottom: 1px solid white;
+	background-color:  #00000000;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.signup .signup-but input,
+.signin .signin-but input{
+    height: 2rem;
+    width: 10rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+}
+
+/* 底部文字 */
+.left-sp,
+.right-sp{
+    position: absolute;
+    bottom: 5rem;
+}
+.right-sp{
+    right: 1rem;
+}
+.left-sp{
+    left: 1rem;
+}
+.left-sp a,
+.right-sp a{
+    color: #cec5c5;
+}
+.left-sp a:hover,
+.right-sp a:hover{
+    color: #D6857B;
+}
+@media screen and (max-width: 768px) {
+    .signin-outter,
+    .signup-outter{
+        width: 90%;
+        top: 40%;
+    }
+}

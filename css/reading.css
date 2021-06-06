@@ -1,0 +1,39 @@
+/*主容器样式 */
+body,html{
+    background-color: #EFE0CB;
+}
+.read-main{
+    width: 1126px;
+    margin: 6rem auto;
+    border-radius: 5px;
+    padding-bottom: 80px;
+    font-size: 1.6rem;
+    box-shadow: 0 0 10px rgb(170, 169, 169);
+    background-color: #FCF5ED;
+}
+.now{
+    font-size: 1.5rem ;
+    padding: 10px ;
+}
+.now a:hover{
+    color: #D47E74;
+}
+.title{
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.author{
+    text-align: center;
+    color: #999;
+    margin: 2rem;
+}
+.read-info{
+    background: rgba(0,0,0,0) url(https://a.dushu.com/img/lines.png) repeat-y scroll 0 0;
+    line-height: 38px;
+    margin-top: 50px;
+    padding: 0 10px;
+}
+.read-info p{
+    text-indent: 3.5rem;
+}

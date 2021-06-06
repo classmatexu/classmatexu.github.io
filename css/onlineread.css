@@ -1,0 +1,41 @@
+/* 顶部图片容器 */
+.online-read-imgwrapper{
+    width: 1126px;
+    margin: 3rem auto;
+}
+.online-read-imgwrapper img{
+    width: 100%;
+}
+/* 在线阅读导航 */
+.online-read-nav{
+    width: 20rem;
+    height: 0;
+}
+.online-read-nav li{
+    width: 20rem;
+    line-height: 4rem;
+    padding: 0 2rem;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.online-read-nav li:first-child{
+    border-top: .3rem solid #CB0D0D;
+}
+.online-read-nav i{
+    margin: 0 1rem;
+    color: #CB0D0D;
+}
+.online-read-nav li a{
+    display: block;
+    color: #645959;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+.online-read-nav li a:hover{
+    color: #D6857B;
+}
+/* 在线阅读书籍 */
+.row{
+    margin-left: 28.5rem;
+}

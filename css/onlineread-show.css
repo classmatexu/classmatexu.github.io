@@ -1,0 +1,117 @@
+/* 主容器 */
+.onlineread-show-main{
+    width: 1126px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.onlineread-show-main::after,
+.article{
+    clear: both;
+    content: "";
+    display: block;
+}
+.onlineread-show-imgwrapper{
+    float: left;
+    width: 20rem;
+    height: 26.5rem;
+    border-radius: .5rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 0 .7rem rgba(61, 55, 55, 0.781);
+}
+.onlineread-show-imgwrapper:hover{
+    transition: .3s;
+    box-shadow: 0 0 1rem rgba(61, 55, 55, 0.781);
+}
+.onlineread-show-imgwrapper a{
+    display: block;
+}
+.onlineread-show-imgwrapper img{
+    max-width: 100%;
+    border-radius: .5rem;
+}
+/* 书籍介绍 */
+.onlineread-title{
+    float: left;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+.onlineread-title h1{
+    font-size: 2.4rem;
+    color: #554c4c;
+    font-weight: bold;
+}
+.onlineread-title p{
+    margin: 4rem 0;
+    font-size: 1.4rem;
+}
+.onlineread-title a{
+    display: block;
+    border: 1px solid red;
+    width: 12rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #d45252;
+    color: #fff;
+    border-radius: .4rem;
+}
+.onlineread-title a:hover{
+    transition: .3s;
+    background-color: rgb(206, 45, 45);
+}
+/*  图书信息介绍 */
+.article{
+    margin: 3rem 0;
+}
+.article h2,
+.article h2 a{
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: inline;
+}
+.article p{
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    text-indent: 3.5rem;
+    line-height: 2.5rem;
+}
+.article i{
+    color: #e41f1f;
+    margin: 0 1rem;
+}
+.article ul{
+    border: 1px solid #ddd;
+}
+.article li{
+    padding: 0 3rem;
+    line-height: 2.5em;
+    font-size: 1.5rem;
+}
+.article li a{
+    color: #5C5050;
+}
+.article li a:hover{
+    transition: .3s;
+    color: #D6857B;
+}
+.article li:nth-child(2n+1){
+    background-color: #e7e7e7b2;
+}
+@media screen and (max-width: 768px){
+    .onlineread-show-imgwrapper{
+        width: 15rem;
+        height: 20rem;
+    }
+    .onlineread-title{
+        
+    }
+}
+@media screen and (max-width: 500px){
+    .onlineread-title{
+        margin-left: 0rem;
+        width: 180px;
+    }
+}
