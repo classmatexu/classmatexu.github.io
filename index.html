@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>悦读网</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- swiper轮播图css -->
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <!-- ico图标 -->
+    <link rel="icon" href="favicon.ico">
+    <!-- bootstrap-css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- 创建顶部容器 -->
+    <div class="top-wrapper">
+        <div class="mid-top">
+            <span>书是籍是人类进步的阶梯！</span>
+            <span class="right-span">
+                <a href="signin.html">我的悦读</a>
+            </span>
+        </div>
+    </div>
+    <!-- 创建头部容器 -->
+    <header class="header">
+        <!-- 创建头部容器主容器 -->
+        <div class="header-main">
+            <!-- 创建logo容器 -->
+            <div class="header-logo">
+                <a href="index.html"><img src="./img/logo.png" alt=""></a>
+            </div>
+            <!-- 导航栏容器 -->
+            <div class="nav">
+                <ul>
+                    <li class="active"><a href="index.html">首页</a></li>
+                    <li><a href="everyread.html">每日一读</a></li>
+                    <li><a href="onlineread.html">在线读书</a></li>
+                    <li><a href="good-books.html">好书推荐</a></li>
+                </ul>
+            </div>
+            <!-- 创建搜索框容器 -->
+            <div class="search-wrapper">
+                <form action="#" method="post">
+                    <input class="search-inp" type="text" placeholder="阅读从这里开始" />
+                    <button class="search-but" type="button"><i class="iconfont">&#xe60b;</i></button>
+                </form>
+            </div>
+            <!-- 创建汉堡菜单，移动端导航 -->
+            <nav class="menu">
+                <input type="checkbox" id="hamb-inp" />
+                <label id="hamb-inp-label" for="hamb-inp">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </label>
+                <div class="hamb-nav">
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="everyread.html">每日一读</a></li>
+                        <li><a href="onlineread.html">在线读书</a></li>
+                        <li><a href="good-books.html">好书推荐</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- 轮播图容器 -->
+    <div class="banner">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/bannerimg01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/bannerimg02.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/bannerimg03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/bannerimg04.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/bannerimg05.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/bannerimg06.jpg" alt=""></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <!-- 在线读书 -->
+    <div class="container books-wrapper">
+        <div class="books-title">
+            <h4>在线读书</h4>
+            <a href="onlineread.html">更多></a>
+        </div>
+        <div class="row">
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book01.jpg" alt="">
+                        <h4>威尼斯商人</h4>
+                    </a>
+                    <!-- 创建悬浮层容器 -->
+                    <div class="writer">
+                        <p>威尼斯商人</p>
+                        <p>威廉·莎士比亚</p>
+                        <p><a href="onlineread-01.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book02.jpg" alt="">
+                        <h4>史记</h4>
+                    </a>
+                    <div class="writer">
+                        <p>史记</p>
+                        <p>《国学四库》编委会</p>
+                        <p><a href="onlineread-02.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book03.jpg" alt="">
+                        <h4>小王子</h4>
+                    </a>
+                    <div class="writer">
+                        <p>小王子</p>
+                        <p>圣埃克苏佩里</p>
+                        <p><a href="onlineread-03.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book04.jpg" alt="">
+                        <h4>沙海</h4>
+                    </a>
+                    <div class="writer">
+                        <p>沙海</p>
+                        <p>南派三叔</p>
+                        <p><a href="onlineread-04.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book05.jpg" alt="">
+                        <h4>明朝那些事儿</h4>
+                    </a>
+                    <div class="writer">
+                        <p>明朝那些事儿</p>
+                        <p>当年明月</p>
+                        <p><a href="onlineread-05.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book06.jpg" alt="">
+                        <h4>傲慢与偏见</h4>
+                    </a>
+                    <div class="writer">
+                        <p>傲慢与偏见</p>
+                        <p>（英）简·奥斯丁</p>
+                        <p><a href="onlineread-06.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book07.jpg" alt="">
+                        <h4>如果没有遇见你</h4>
+                    </a>
+                    <div class="writer">
+                        <p>如果没有遇见你</p>
+                        <p> 晴空蓝兮</p>
+                        <p><a href="onlineread-07.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book08.jpg" alt="">
+                        <h4>云边有个小卖部</h4>
+                    </a>
+                    <div class="writer">
+                        <p>云边有个小卖部</p>
+                        <p>张嘉佳</p>
+                        <p><a href="onlineread-08.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book09.jpg" alt="">
+                        <h4>一个人的朝圣</h4>
+                    </a>
+                    <div class="writer">
+                        <p>一个人的朝圣</p>
+                        <p>[英]蕾秋·乔伊斯</p>
+                        <p><a href="onlineread-09.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book10.jpg" alt="">
+                        <h4>断舍离 </h4>
+                    </a>
+                    <div class="writer">
+                        <p>断舍离 </p>
+                        <p>[日]山下英子</p>
+                        <p><a href="onlineread-10.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book11.jpg" alt="">
+                        <h4>仲夏夜之梦</h4>
+                    </a>
+                    <div class="writer">
+                        <p>仲夏夜之梦</p>
+                        <p>莎士比亚</p>
+                        <p><a href="onlineread-11.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-2 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book12.jpg" alt="">
+                        <h4>阮陈恩静</h4>
+                    </a>
+                    <div class="writer">
+                        <p>阮陈恩静</p>
+                        <p>吕亦涵</p>
+                        <p><a href="onlineread-12.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- 好书推荐 -->
+    <div class="container books-wrapper">
+        <div class="books-title">
+            <h4>好书推荐</h4>
+            <a href="good-books.html">更多></a>
+        </div>
+        <div class="row col-lg-6">
+            <div class="books col-lg-4 col-sm-4 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class='outer'>
+                    <div class="book-back">
+                    </div>
+                    <div class="book-cover">
+                        <img src="./img/goodbooks01.jpg" alt="">
+                    </div>
+                    <div class='book-info'>
+                        <h4>人类的群星闪耀时</h4>
+                        <p>人类“历史上最好的传记作家”——斯蒂芬·茨威格的传记名作之一。
+                    </div>
+                </div>
+                <h4>人类的群星闪耀时</h4>
+            </div>
+            <div class="books col-lg-4 col-sm-4 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class='outer'>
+                    <div class="book-back">
+                    </div>
+                    <div class="book-cover">
+                        <img src="./img/goodbooks02.jpg" alt="">
+                    </div>
+                    <div class='book-info'>
+                        <h4>战争与和平</h4>
+                        <p>俄国作家列夫·尼古拉耶维奇·托尔斯泰创作的长篇小说。
+                    </div>
+                </div>
+                <h4>战争与和平</h4>
+            </div>
+            <div class="books col-lg-4 col-sm-4 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class='outer'>
+                    <div class="book-back">
+                    </div>
+                    <div class="book-cover">
+                        <img src="./img/goodbooks03.jpg" alt="">
+                    </div>
+                    <div class='book-info'>
+                        <h4>偷影子的人</h4>
+                        <p>作品展现了马克·李维温柔风趣的写作风格，有催人泪下的亲情、浪漫感人的爱情和不离不弃的友情。
+                    </div>
+                </div>
+                <h4>偷影子的人</h4>
+            </div>
+            <div class="books col-lg-4 col-sm-4 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class='outer'>
+                    <div class="book-back">
+                    </div>
+                    <div class="book-cover">
+                        <img src="./img/goodbooks04.jpg" alt="">
+                    </div>
+                    <div class='book-info'>
+                        <h4>怦然心动</h4>
+                        <p>美国作家文德琳·范·德拉安南创作的一部长篇小说，讲述了青春期男孩女孩间的有趣故事。
+                    </div>
+                </div>
+                <h4>怦然心动</h4>
+            </div>
+            <div class="books col-lg-4 col-sm-4 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class='outer'>
+                    <div class="book-back">
+                    </div>
+                    <div class="book-cover">
+                        <img src="./img/goodbooks05.jpg" alt="">
+                    </div>
+                    <div class='book-info'>
+                        <h4>彷徨少年时</h4>
+                        <p>全篇以黑塞标志性的抒情笔调写就，是一部描述贯彻探索自我命运的心理小说，是黑塞纪念碑式的名作。
+                    </div>
+                </div>
+                <h4>彷徨少年时</h4>
+            </div>
+            <div class="books col-lg-4 col-sm-4 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class='outer'>
+                    <div class="book-back">
+                    </div>
+                    <div class="book-cover">
+                        <img src="./img/goodbooks06.jpg" alt="">
+                    </div>
+                    <div class='book-info'>
+                        <h4>月亮与六便士</h4>
+                        <p>“满地都是六便士，他却抬头看见了月亮。”
+                    </div>
+                </div>
+                <h4>月亮与六便士</h4>
+            </div>
+        </div>
+        <!-- 好书排行榜容器 -->
+        <div class="ranking">
+            <ul>
+                <li><a href="#"><span class="num">01</span>《把自己作为方法》<span class="title">项飙</span></a></li>
+                <li><a href="#"><span class="num">02</span>《夜晚潜水艇》<span class="title">迪迪埃·埃里蓬</span></a></li>
+                <li><a href="#"><span class="num">03</span>《回归故里》<span class="title">李沧东</span></a></li>
+                <li><a href="#"><span class="num">04</span>《烧纸》<span class="title">陈嘉映</span></a></li>
+                <li><a href="#"><span class="num">05</span>《走出唯一的真理》<span class="title">埃莱娜·费兰特</span></a></li>
+                <li><a href="#"><span class="num">06</span>《失落的卫星》<span class="title">刘子超</span></a></li>
+                <li><a href="#"><span class="num">07</span>《银河边缘的小失常》<span class="title">埃特加·凯雷特</span></a></li>
+                <li><a href="#"><span class="num">08</span>《文化失忆》<span class="title">克莱夫·詹姆斯</span></a></li>
+                <li><a href="#"><span class="num">09</span>《怪诞故事集》<span class="title">奥尔加·托卡尔丘克</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 返回顶部 -->
+    <div class="back-top">
+        <a href="index.html"><i class="iconfont">&#xe632;</i></a>
+    </div>
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-main">
+            <p>Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2021&nbsp;&nbsp;<a href="index.html">悦读网</a> </p>
+            <p><i class="iconfont footer-icon">&#xe658;</i> <i class="iconfont footer-icon">&#xe615;</i><i class="iconfont footer-icon">&#xf19d;</i><i
+                    class="iconfont footer-icon">&#xea90;</i></p>
+        </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZh4w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

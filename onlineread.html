@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线读书 - 悦读网</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/onlineread.css">
+</head>
+
+<body>
+    <!-- 创建顶部容器 -->
+    <div class="top-wrapper">
+        <div class="mid-top">
+            <span>书是籍是人类进步的阶梯！</span>
+            <span class="right-span">
+                <a href="signin.html">我的悦读</a>
+            </span>
+        </div>
+    </div>
+    <!-- 创建头部容器 -->
+    <header class="header">
+        <!-- 创建头部容器主容器 -->
+        <div class="header-main">
+            <!-- 创建logo容器 -->
+            <div class="header-logo">
+                <a href="index.html"><img src="./img/logo.png" alt=""></a>
+            </div>
+            <!-- 导航栏容器 -->
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="everyread.html">每日一读</a></li>
+                    <li class="active"><a href="onlineread.html">在线读书</a></li>
+                    <li><a href="good-books.html">好书推荐</a></li>
+                </ul>
+            </div>
+            <!-- 创建搜索框容器 -->
+            <div class="search-wrapper">
+                <form action="#" method="post">
+                    <input class="search-inp" type="text" placeholder="阅读从这里开始" />
+                    <button class="search-but" type="button"><i class="iconfont">&#xe60b;</i></button>
+
+                </form>
+            </div>
+            <!-- 创建汉堡菜单，移动端导航 -->
+            <nav class="menu">
+                <input type="checkbox" id="hamb-inp" />
+                <label id="hamb-inp-label" for="hamb-inp">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </label>
+                <div class="hamb-nav">
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="everyread.html">每日一读</a></li>
+                        <li><a href="onlineread.html">在线读书</a></li>
+                        <li><a href="good-books.html">好书推荐</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 在线阅读顶部图片容器 -->
+    <div class="online-read-imgwrapper">
+        <img src="./img/yuedu.jpg" alt="">
+    </div>
+    <!-- 在线阅读容器 -->
+    <div class="container books-wrapper">
+        <!-- 在线悦读导航 -->
+        <div class="online-read-nav">
+            <ul>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>小说作品</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>历史传记</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>人物传记</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>成功励志</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>文学艺术</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>社会科学</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>亲子幼儿</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>生活时尚</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>科学技术</a></li>
+                <li><a href="#"><i class="iconfont">&#xe604;</i>科幻小说</a></li>
+            </ul>
+        </div>
+        <div class="row col-lg-9 ">
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <!-- 创建书籍外部容器 -->
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book01.jpg" alt="">
+                        <h4>威尼斯商人</h4>
+                    </a>
+                    <!-- 创建悬浮层容器 -->
+                    <div class="writer">
+                        <p>威尼斯商人</p>
+                        <p>威廉·莎士比亚</p>
+                        <p><a href="onlineread-01.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book02.jpg" alt="">
+                        <h4>史记</h4>
+                    </a>
+                    <div class="writer">
+                        <p>史记</p>
+                        <p>《国学四库》编委会</p>
+                        <p><a href="onlineread-02.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book03.jpg" alt="">
+                        <h4>小王子</h4>
+                    </a>
+                    <div class="writer">
+                        <p>小王子</p>
+                        <p>圣埃克苏佩里</p>
+                        <p><a href="onlineread-03.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book04.jpg" alt="">
+                        <h4>沙海</h4>
+                    </a>
+                    <div class="writer">
+                        <p>沙海</p>
+                        <p>南派三叔</p>
+                        <p><a href="onlineread-04.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book05.jpg" alt="">
+                        <h4>明朝那些事儿</h4>
+                    </a>
+                    <div class="writer">
+                        <p>明朝那些事儿</p>
+                        <p>当年明月</p>
+                        <p><a href="onlineread-05.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book06.jpg" alt="">
+                        <h4>傲慢与偏见</h4>
+                    </a>
+                    <div class="writer">
+                        <p>傲慢与偏见</p>
+                        <p>（英）简·奥斯丁</p>
+                        <p><a href="onlineread-06.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book07.jpg" alt="">
+                        <h4>如果没有遇见你</h4>
+                    </a>
+                    <div class="writer">
+                        <p>如果没有遇见你</p>
+                        <p> 晴空蓝兮</p>
+                        <p><a href="onlineread-07.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book08.jpg" alt="">
+                        <h4>云边有个小卖部</h4>
+                    </a>
+                    <div class="writer">
+                        <p>云边有个小卖部</p>
+                        <p>张嘉佳</p>
+                        <p><a href="onlineread-08.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book09.jpg" alt="">
+                        <h4>一个人的朝圣</h4>
+                    </a>
+                    <div class="writer">
+                        <p>一个人的朝圣</p>
+                        <p>[英]蕾秋·乔伊斯</p>
+                        <p><a href="onlineread-09.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book10.jpg" alt="">
+                        <h4>断舍离 </h4>
+                    </a>
+                    <div class="writer">
+                        <p>断舍离 </p>
+                        <p>[日]山下英子</p>
+                        <p><a href="onlineread-10.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book11.jpg" alt="">
+                        <h4>仲夏夜之梦</h4>
+                    </a>
+                    <div class="writer">
+                        <p>仲夏夜之梦</p>
+                        <p>莎士比亚</p>
+                        <p><a href="onlineread-11.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="books col-lg-3 col-sm-3 col-xs-6">
+                <div class="info-wrapper">
+                    <a href=""><img src="./img/online-book12.jpg" alt="">
+                        <h4>阮陈恩静</h4>
+                    </a>
+                    <div class="writer">
+                        <p>阮陈恩静</p>
+                        <p>吕亦涵</p>
+                        <p><a href="onlineread-12.html">去阅读</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 返回顶部 -->
+    <div class="back-top">
+        <a href="onlineread.html"><i class="iconfont">&#xe632;</i></a>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-main">
+            <p>Copyright&nbsp;&nbsp;©&nbsp;&nbsp;2021&nbsp;&nbsp;<a href="index.html">悦读网</a> </p>
+            <p><i class="iconfont footer-icon">&#xe658;</i> <i class="iconfont footer-icon">&#xe615;</i><i
+                    class="iconfont footer-icon">&#xf19d;</i><i class="iconfont footer-icon">&#xea90;</i></p>
+        </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZh4w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
